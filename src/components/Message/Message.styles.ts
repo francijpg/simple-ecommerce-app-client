@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { Link } from "react-router-dom";
 
 export const StyleWrapper = styled.div`
   position: fixed;
@@ -43,8 +42,4 @@ export const StyleContainer = styled.div`
   a {
     font-size: 20px;
   }
-`;
-
-export const StyleLink = styled(Link)`
-  font-size: 20px;
 `;
